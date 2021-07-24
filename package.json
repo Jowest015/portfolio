@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "a simple portfolio app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jowest015/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "John Westover",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jowest015/portfolio/issues"
+  },
+  "homepage": "https://github.com/Jowest015/portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2"
+  }
+}
