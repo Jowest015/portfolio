@@ -3,7 +3,6 @@ const handlebars = require('express-handlebars');
 
 const app = express();
 
-
 //Template engine
 app.set('view engine', 'hbs');
 app.engine('hbs', handlebars({
@@ -12,7 +11,7 @@ app.engine('hbs', handlebars({
   defaultLayout: 'main'
 }));
 
-app.use(express.static('public'));
+app.use(express.static("public"));
 
 app.get('/', (req, res) => {
   res.render('home');
